@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo-js</title>
+</head>
+<body>
+	<!-- khai bao js -->
+	<!-- 1. khai bao thang trong the html -->
+	<a onclick="document.write('helo'+'<br/>'+'cnndndn')">
+		click de show doan text hello world
+	</a>
+	<br/>
+	<!-- 2. nhung thang trong file html -->
+	<!-- thong thuong cac ban se nhung truoc the dong body -->
+	<script type="text/javascript">
+		var name="Manh";
+		document.write("hello"+name);
+	</script>
+	<!-- 3-nhung tu file .js ben ngoai -->
+
+	<!-- cac khai niem co ban trong lap trinh -->
+	<!-- 1-bien -->
+	<script type="text/javascript">
+		var name="manh";
+		var age=20;
+		var var1,var2;
+		var var3=1,var4=true;
+		// alert('name:'+name+'\n'+'age:'+age+'\n'+"gt var3="+var3+"\n"+'var4='+var4)
+	</script>
+	<script type="text/javascript">
+		var username="ndmanh";
+		var password="123456";
+		var undefined=null;
+
+		document.write('name:'+username+"<br/>"+'password:'+password+"<br/>"+undefined)
+	</script>
+	<br/>
+
+	<!-- 2-hang -->
+	<script type="text/javascript">
+		const PI=3.14;
+		document.write("SO PI="+PI)
+	</script>
+	<br/>
+	<!-- 3-kieu du lieu -->
+	<script type="text/javascript">
+		// kieuso +kieu string
+		var number1=1.23;
+		var string1="1.23";
+		var string3="hello 'manh' "
+		document.write(typeof(number1)+"<br/>"+typeof(string1))
+		document.write("<br/>"+string3)
+		// kieu boolean
+		var boolean1=true;
+		var boolean2=false;
+		document.write("<br/>"+typeof(boolean2))
+		document.write("<br/>"+"boolean1:"+boolean1+"<br/>"+"boolean2:"+boolean2)
+
+		// undefined
+		var x;
+		document.write("<br/>")
+		document.write(typeof(x))
+		// array
+		var arr1=[1,"1",true,undefined,[1,2,3]];
+		document.write("<br/>")
+		// object
+		var obj1={
+			name:"manh",
+			age:29,
+			phuongthuc:function(){
+				document.write("name:"+name+"<br/>"+"age:"+age)
+			}
+		};
+		obj1.phuongthuc();
+document.write("<br/>")
+		// Hàm-Function
+		// 1-hàm có sẵn
+		// write
+		// 2-hàm tự định nghĩa
+		function display(){
+			document.write("noi dung hien thi:")
+		}
+		// gọi tên hàm
+		display();
+		document.write("<br/>")
+		//xay dung ham hien thi ten,tuoi
+		function detail(name,age){
+			document.write("name:"+name+"<br/>"+"age:"+age)
+		}
+		detail("manh",23);
+		detail("manh",20);
+
+		// hàm có tham số với giá trị mặc định
+
+		function sum(a=1,b=2){
+			document.write("tong 2 so la:"+(a+b))
+		}
+		sum();
+		sum(3,5);
+
+		// hàm có giá trị trả về
+
+		function multip(a,b){
+			return a*b;
+		}
+		document.write("<br/>"+multip(3,3))
+
+		// một số hàm được xây dựng sẵn trong js
+		// document.write("hi");
+		// var x=5;
+		// console.log("kieu du lieu x:"+typeof x)
+		// alert("day la ham alert");
+		// prompt("moi ban gop y kien");
+		// confirm("chon 1 trong 2");
+	</script>
+
+	<a href="" title="Link Google" id="link">
+		click de show tong tin
+	</a>
+	<script type="text/javascript">
+		var  a=document.getElementById("link");
+		document.write("tieu de cua the a:"+a.title)
+	</script>
+
+	<!-- SỰ KIỆN TRONG JS -->
+	<a href="http://google.com" onclick="return changeColor();" id="change-color" style="color:black">
+		click doi mau
+	</a>
+	<script type="text/javascript">
+		function changeColor(){
+			var color=document.getElementById("change-color");
+			color.style.color="red";
+
+			return false;
+		}
+	</script>
+</body>
+</html>

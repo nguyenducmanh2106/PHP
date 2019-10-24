@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>demo-jQuery-day08</title>
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<!-- <script type="text/javascript">
+		$(document).ready(
+			function(){
+				document.write("hi")
+			  }
+			)
+		// cơ chế callback
+		// code jquery nên để trong đoạn này
+		$(document).ready();
+		window.onload=function(){}
+
+	</script> -->
+<h1>đây là thẻ h1</h1>
+<p id="p-paragraph">day la the p</p>
+<span class="span-class">day la the span</span>
+	<script type="text/javascript">
+		// Module Jquery Selector
+		// 1.lấy ra đối tượng sử dụng cú pháp của css
+		$(document).ready(
+			function(){
+				$("h1").attr("style","color:red")
+				$("#p-paragraph").html("day la the p da duoc thay doi noi dung html")
+				$(".span-class").css("color","orange")
+			}
+			)
+
+	</script>
+
+
+<a href="http://google.com" title="link google" target="_blank" id="a-attribute">click</a>
+<form action="" method="get" accept-charset="utf-8">
+	username:<input type="text" name="" value="ndm">
+</form>
+	<script type="text/javascript">
+		// 2.Jquery Attribute
+		// giúp cho việc thao tác với các thuộc tính của selector trở nên đơn giản hơn
+		$(document).ready(function(){
+			// khi truyền 1 giá trị vào attr thì sẽ là get
+			$("#a-attribute").attr("title")
+			// khi truyền 2 giá trị vào attr thì sẽ là set
+			var a=$("#a-attribute").attr("href","http://shopee.vn")
+
+			// $("#a-attribute").removeAttr("target");
+
+			// html()-get nội dung bên trong
+			$("#a-attribute").html()
+			// html("content")-set nội dung bên trong
+			$("#a-attribute").html("click changed")
+
+			// val()-get giá trị
+			var m=$("input[type=text]").val();
+			// val()-set giá trị
+			$("input[type=text]").val("ndm-new");
+		})
+	</script>
+
+<a href="http://shopee.vn" id="a-dom" target="_blank">
+	click redirect 
+</a>
+	<script type="text/javascript">
+		// Jquery DOM
+		// thao tác với cây html như xóa, thêm nội dung html/text vào trước/sau selector
+		$(document).ready(function(event){
+			$("#a-dom").click(function(event){
+				event.preventDefault();
+			});
+			
+			$("#a-dom").after("<h1>nội dung thẻ h1 được thêm phía sau với thẻ a có id là a-dom</h1>")
+			$("#a-dom").before("<h1>nội dung thẻ h1 được thêm phía trước với thẻ a có id là a-dom</h1>")
+			$("#a-dom").append("<h1>thêm vào sau nhưng ở vị trí con của thẻ a với id là a-dom</h1>")
+		})
+	</script>
+
+
+<a href="" id="a-event">Link event</a>
+	<script type="text/javascript">
+		// Jquery Event
+		// thao tác với các sự kiện
+		// thông thường tên sự kiện jquery sẽ bỏ đi từ on trong sự kiện của js
+		$(document).ready(function(){
+			$("#a-event").click(function(){
+				console.log("click!")
+			})
+			$("#a-event").hover(function(){
+				console.log("hover!")
+			})
+		})
+	</script>
+
+<a href="#" id="a-effect">link effect</a>
+	<script type="text/javascript">
+		// Module jquery effect
+		$(document).ready(function(){
+			$("#a-effect").click(function(){
+				// $(this).hide(3000);
+				// $(this).show(5000);
+				// $(this).toggle(slow/400/fast);
+				// 
+				$(this).fadeOut(3000);
+				$(this).fadeIn(3000);
+			})
+		})
+	</script>
+
+
+	<!-- jquery ajax_demo. Học kĩ hơn vào php -->
+	<script type="text/javascript">
+		$.ajax{
+			url:"http://localhost/abc.php",
+			method:"GET",
+			data:{
+				name:"Manh",
+				age:15
+			},
+			success:function(data){
+				$("#result").html()
+			}
+		}
+	</script>
+</body>
+</html>

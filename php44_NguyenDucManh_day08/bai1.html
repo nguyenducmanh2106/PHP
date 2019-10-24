@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bai1</title>
+	<style type="text/css" media="screen">
+		.container{
+			width: 60%;
+			border:1px solid #000;
+			margin:50px auto;
+		}
+		.title{
+			background: pink;
+			font-weight: bold;
+			font-size: 22px;
+			border-bottom: 1px solid #000;
+			text-align: center;
+			margin-top:0;
+			padding:30px 0;
+		}
+		.no{
+			font-size: 20px;
+			margin-left: 80px;
+		}
+		input[type=text]{
+			width:70%;
+			height: 30px;
+			margin-left: 80px;
+			margin-top:20px;
+			margin-bottom: 20px;
+		}
+		input[type=button]:nth-child(n+3){
+			background:red;
+			border:none;
+			border-radius: 6px;
+			height: 30px;
+			width: 80px;
+			margin:12px;
+			color:#fff;
+			font-size: 18px;
+		}
+		input[type=button]:nth-child(2n+2){
+			background:green;
+			border:none;
+			border-radius: 6px;
+			height: 30px;
+			width: 80px;
+			margin:12px;
+			color:#fff;
+			font-size: 18px;
+		}
+		input[type=button]:first-child{
+			background:blue;
+			border:none;
+			border-radius: 6px;
+			height: 30px;
+			width: 80px;
+			margin:12px;
+			color:#fff;
+			font-size: 18px;
+		}
+		input[type=button]:last-child{
+			background:yellow;
+			border:none;
+			border-radius: 6px;
+			height: 30px;
+			width: 150px;
+			margin:12px;
+			color:#fff;
+			font-size: 18px;
+		}
+		#warning{
+			color:red;
+			font-size: 24px;
+			margin-bottom: 16px;
+			margin:12px;
+		}
+		#display{
+			font-size: 18px;
+			margin:12px;
+			color:blue;
+		}
+	</style>
+	<script type="text/javascript" src="js-bai1.js">
+	</script>
+</head>
+<body>
+	<div class="container">
+		<p class="title">Thực hành toán tử số học</p>
+		<div id="warning"></div>
+		<label class="no">NHập vào số a:</label><br/>
+		<input type="text" id="no1"><br/>
+		<label class="no">NHập vào số b:</label><br/>
+		<input type="text"  name="" id="no2">
+		<div>
+			<input type="button" name="" value="a+b" onclick="sum()">
+			<input type="button" name="" value="a-b" onclick="tru()">
+			<input type="button" name="" value="a*b" onclick="nhan()">
+			<input type="button" name="" value="a/b" onclick="chia_nguyen()">
+			<input type="button" name="" value="a%b" onclick="chia_du()">
+			<input type="button" name="" value="a++" onclick="a_tang()">
+			<input type="button" name="" value="++a" onclick="tang_a()">
+			<input type="button" name="" value="a--" onclick="a_giam()">
+			<input type="button" name="" value="--a" onclick="giam_a()">
+			<input type="button" name="" value="reset dữ liệu" onclick="reset()">
+		</div>
+		<div id="display"></div>
+	</div>
+</body>
+</html>

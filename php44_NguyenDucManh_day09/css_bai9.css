@@ -1,0 +1,84 @@
+.container{
+			background: #f0f0f0;
+			padding:30px;
+		}
+		.input-contain{
+			background: #fff;
+			padding:4px 6px;
+			margin:15px -15px;
+			border:1px solid #e8d9d9;
+		}
+		.input-text{
+			width: 60%;
+			display: inline-block;
+			border-radius:0; 
+			border:none;
+		}
+		.redeem{width: 40%;
+			background: grey;
+			vertical-align:bottom;
+			position: absolute;
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+			border-top-right-radius: .5rem;
+			border-bottom-right-radius:.5rem;
+			margin: -3px 2px;
+			padding: .53rem .7rem;
+			}
+			.content-input{
+				box-sizing: border-box;
+			    position: relative;
+			    border-radius: .5rem;
+			    border: 1px solid #e8d9d9;
+			    padding:3px;
+			    background: #fff;
+			}
+			.col-content .row{
+				border:1px solid #a9a5a5;
+				border-bottom: none;
+				color:#000;
+				font-weight: bold;
+				height: 50px;
+			}
+			.col-content .last{
+				border-bottom:1px solid #000;
+			}
+			.brief{
+				color:#777373;
+				font-weight:none;
+			}
+			.left{
+				float:left;
+			}
+			.content-title{
+				width: 100%;
+				display:flex;
+			}
+			.right{float: right;}
+			.your-card{
+				float: left;
+				color:#777373;
+			}
+			.number-product{
+				height: 20px;
+				width: 30px;
+				border-radius: 40%/60%;
+				background: #000;
+				color:#fff;
+				text-align: center;
+				line-height: 20px;
+			}
+			.btn-primary{
+				width: 100%
+			}
+			.Billing-address{
+				font-weight: bold;
+			}
+			@media(max-width: 767px){
+				.col-md-4{
+					margin-top:50px;
+				}
+				.number-product{
+					margin-left: 80%
+				}
+			}

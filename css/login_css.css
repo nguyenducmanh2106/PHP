@@ -1,0 +1,20 @@
+body{background: #f5f5f5;width:100%}
+#wraper{background:#ffffff;position:fixed;width:100%}
+*{margin:0px}
+.tile{position:relative;width:100%}
+.logo{margin-top:35px;margin-left:100px;width:15%;float:left}
+.search_product{float:right;width:60%;margin-right:15%;margin-top:24px}
+.task_search{width:70%;float:left;}
+input[type=text]{width:90%;height:50px;float:left}
+.search{margin-top:2%;margin-left:73%}
+.cam{margin-top:-2px}
+.menu{clear:right;}
+.menu ul{list-style: none;padding: 0px;margin:0px;
+position: relative;width:100%}
+.menu ul li{display: inline-block;width: 10%;height: 65px;
+          line-height: 80px;margin-left:7%}
+.menu ul li a{text-decoration: none;text-align: center;display: block;color:black}
+.menu ul ul{position: absolute;display: block;left:38%;top:100%}
+.menu ul ul li{background: #ddd; width: 200px;display: none}
+.menu ul li:hover>ul>li{display: block;}
+.menu ul ul ul{left:12%;top:50% }

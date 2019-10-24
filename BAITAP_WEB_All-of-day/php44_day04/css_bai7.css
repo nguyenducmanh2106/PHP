@@ -1,0 +1,101 @@
+.header-top{
+	background: #007669;
+	color:#fff;
+	font-size: 14px;
+	padding:8px 5px;
+	text-align: center;
+}
+.header-center{
+	background: #009788;
+	color:#fff;
+	text-align: center;
+	padding-top:20px;
+	padding-bottom: 4px;
+	font-size: 24px;
+}
+.header-center .fa{
+	margin-right: 6px
+}
+.header-bottom {
+	text-align: right;
+}.header-bottom .fa{
+	background: #072945;
+	color:#fff;
+	padding:4px 8px;
+	margin-top: 6px;
+	border-radius: 4px;
+}
+.main{
+	margin-top: 20px;
+}
+.main-heading{
+	text-align: center;
+	font-size: 32px;
+	background: #009788;
+	color:#fff;
+	padding:8px;
+	text-transform: uppercase;
+	animation: anima 4s linear infinite alternate;
+}
+@keyframes anima{
+	0%{color:red;}
+	25%{color:black;}
+	50%{color:orange;}
+	75%{color:tan;}
+	100%{color:#9786;}
+}
+.main-p1{
+	padding-left: 15px;
+	line-height: 24px;
+}
+.main-img-content{
+	position: relative;
+}
+.over{
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 100%;
+	background: tan;
+	bottom: 0;
+	transition: all .6s ease;
+	opacity: 0.6;
+}
+.main-img-content:hover .over{
+	width: 100%;
+}
+.text{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.main-img{
+    height: 200px;
+    width: 100%;
+}
+.hand-craft{
+	background: #000;
+	color:#fff;
+	padding:3px 10px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	display: inline-block;
+}
+.readmore{
+	display: block;
+	background: #009788;
+	color:#fff;
+	text-align: center;
+	padding:6px;
+	text-transform: uppercase;
+}
+.footer{
+	background: #000;
+	color:#fff;
+	text-align: center;
+	padding:15px;
+	margin:15px 0;
+	line-height: 26px;
+	font-size: 18px;
+}

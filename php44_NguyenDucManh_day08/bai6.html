@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bai6</title>
+	<style type="text/css" media="screen">
+		.container{
+			width:40%;
+			border:1px solid #000;
+			margin:40px auto;
+			padding:20px;
+		}
+		input[type=text]{
+		width: 100%;
+			margin:20px auto;
+			height: 25px;
+		}
+		input[type=button]{
+			background: blue;
+			color:#fff;
+			font-size: 16px;
+			border-radius: 6px;
+			border:1px solid;
+			padding:5px;
+			outline: none;
+		}
+		#display{
+			color:blue;
+			font-size: 22px;
+			margin-top: 20px;
+		}
+		.text{
+			background:pink;
+			font-weight: bold;
+			font-size: 20px;
+			text-align: center;
+			border-bottom: 1px solid #000;
+			margin:-20px;
+			margin-bottom: 20px;
+			padding:20px;
+			
+		}
+	</style>
+	<script type="text/javascript">
+		function check()
+		{
+			var number1=document.getElementById("no1").value;
+			var number2=document.getElementById("no2").value;
+			var display=document.getElementById("display");
+			if(number1.includes(number2)==true)
+			{
+				display.innerHTML="Chuỗi "+"<span style='color:green'>"+number2+"</span>"+" tồn tại trong chuỗi ban đầu "+"<span style='color:green'>"+number1+"</span>";
+			}
+			else{
+				display.innerHTML="Chuỗi "+"<span style='color:green'>"+number2+"</span>"+" không tồn tại trong chuỗi ban đầu "+"<span style='color:green'>"+number1+"</span>";
+			}
+		}
+	</script>
+</head>
+<body>
+	<div class="container">
+		<p class="text">
+			Kiểm tra sự tồn tại của chuỗi
+		</p>
+		<form>
+			<label class="title">Nhập vào chuỗi ban đầu:</label><br/>
+			<input type="text" name="" id="no1"><br/>
+			<label class="title">Nhập vào chuỗi cần kiểm tra:</label><br/>
+			<input type="text" name="" id="no2"><br/>
+			<input type="button" name="" value="Kiểm tra" onclick="check()">
+		</form>
+		<div id="display"></div>
+	</div>
+</body>
+</html>

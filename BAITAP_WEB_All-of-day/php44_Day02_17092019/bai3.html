@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bai3</title>
+	<style type="text/css">
+		.wrap-container{max-width:600px;
+		border:2px solid; }
+		.mock-1{border-bottom: 2px solid}
+		.main-content{min-height: 200px;}
+		.col-content{height: 100px;margin:15px;}
+		.col{float:left;}
+		.col-1{width: 25%}
+		.col-2{width: 75%}
+		.col-1-content{background:pink;}
+		.col-2-content{background:blue;}
+		.row{display: flex;}
+		.yellow{background:yellow;}
+		
+	</style>
+</head>
+<body>
+<div class="wrap-container">
+	<div class="mock-1">
+		<span>Mock 1</span>
+	</div>
+	<div class="main-content">
+		<div class="row">
+			<div class="col col-1">
+				<div class="col-content col-1-content"></div>
+			</div>
+			<div class="col col-2">
+				<div class="col-content col-2-content"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-1">
+				<div class="col-content col-1-content"></div>
+			</div>
+			<div class="col col-2">
+				<div class="col-content col-2-content"></div>
+			</div>
+		</div>
+		<div class="row col-content yellow">
+			<div class="yellow-content"></div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

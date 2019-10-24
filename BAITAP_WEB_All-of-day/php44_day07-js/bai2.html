@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bai2</title>
+	<style>
+		.container{
+			width: 40%;
+			margin:20px auto;
+			text-align: center;
+		}
+		input{
+			margin-top:10px;
+		}
+		button{
+			margin:10px auto;
+		}
+	</style>
+	<script>
+		function clk()
+		{
+			var a=document.getElementsByTagName("input");
+			var b=document.getElementById("display");
+				var c="Họ tên vừa nhập: "+a[0].value;
+				var d="Email vừa nhập: "+a[1].value;
+				alert(c+"\n"+d)
+		}
+	</script>
+</head>
+<body>
+<div class="container">
+		<h1 class="title">
+			Form Information
+		</h1>
+		<form action="" method="get" accept-charset="utf-8">
+			Họ tên<input type="text" value="" name="" required><br/>
+		Email&nbsp;&nbsp;<input type="email" name="" value="" required><br/>
+		<button onclick="clk()" onkeypress="clk()">Show popup</button><br/>
+		</form>
+	</div>
+</body>
+</html>

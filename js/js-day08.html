@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo-js-day08</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// Toán tử số học
+		var number1=6;
+		var number2=4;
+		var sum=number1+number2;
+		var sub=number1-number2;
+		var multiple=number1*number2;
+		var divide=number1/number2;
+		document.write("Tong 2 so ="+sum+"<br/>");
+		document.write("Hieu 2 so ="+sub+"<br/>");
+		document.write("Tich 2 so ="+multiple+"<br/>");
+		document.write("Thuong 2 so ="+divide+"<br/>");
+
+		// Toán tử so sánh
+		var a=5;
+		var b=6;
+		document.write("a!=b ?"+(a!=b))
+		document.write("a>=b ?"+(a>=b))
+		document.write("<br/>")
+
+		// Toán tử logic
+		//1- AND &&
+		var a=5;
+		var b=9;
+		var expression1=(a>0)&&(b<0);
+		document.write("expression1="+expression1);
+		document.write("<br/>");
+		// 2-OR ||
+		var expression2=(a>0)||(b<0);
+		document.write("expression2="+expression2);
+		document.write("<br/>");
+		// 3-NOT !
+		var expression3=!(a>0);
+		document.write("expression3="+expression3);
+		document.write("<br/>");
+
+		// Toán tử gán
+		// 1.gán =
+		// 2. "+="
+		// 3. "-="
+
+
+	</script>
+
+
+
+	<script type="text/javascript">
+		// Câu lệnh điều kiện
+		// 1.IF-ELSE
+		var c=-1;
+		if(c>0){
+			document.write("c>0")
+		}
+		else document.write("c<0")
+			// viet tat cua if...else
+		var checkC=c==2?"c=2":"c!=2";
+		document.write(checkC);
+
+		// Biểu thức switch-case
+		var x=5
+		switch(x){
+			case 1:
+			document.write("x=1")
+			break;
+			case 4:
+			document.write("x=4")
+			break;
+			case 5:
+			document.write("x=5")
+			break;
+			default:
+			document.write("x!=1,4,5");
+
+		}
+		document.write("<br/>")
+	</script>
+
+
+	<script type="text/javascript">
+		// Vòng lặp
+		// 1.FOR-vòng lặp xác định được số lần lặp
+		for(var i=1;i<=10;i++){
+			document.write("i="+i+"<br/>");
+		}
+		// 2.While-thường không biết trước được số lần lặp
+
+		var i=4;
+		while(i>0){
+			document.write("i trong while="+i);
+			i--;
+		}
+
+		// 3.Vòng lặp Do-While- giống while tuy nhiên vòng lặp này luôn thực hiện khối lệnh ít nhất 1 lần cho dù điều kiện là sai
+		var j=-2;
+		do{
+			document.write("j trong do..while="+j)
+		}
+		while(j>0);
+
+		// 4.Từ khóa break-continue
+		// 1-Từ khóa break-kết thúc vòng lặp
+		for(var i=1;i<=10;i+=2){
+			if(i==5){
+				break;
+			}
+			document.write("<br/>");
+			document.write(i);
+		}
+		// 2-Từ khóa continue-sẽ không kết thức vòng lặp như break, mà sẽ bỏ qua vòng lặp hiện tại, nảy tới vòng lặp tiếp theo
+		for(var i=2;i<=10;i++){
+			if(i==3){
+				continue;
+			}
+			document.write("<br/>")
+			document.write(i);
+		}
+	</script>
+
+	<!-- Bai toan -->
+	<form action="" method="get" onsubmit="return add()">
+		So thu nhat:<input type="number" name="" id="number1"><br/>
+		So thu hai:<input type="number" id="number2">
+		<input type="submit" name="" value="cong hai so">
+	</form>
+	<div id="result" style="color:green"></div>
+	<div id="error" style="color:red"></div>
+	<script type="text/javascript">
+		function add(){
+			var number1=document.getElementById("number1").value;
+			var number2=document.getElementById("number2").value;
+			if(number1==''||number2==''){
+				var error="khong duoc de trong du lieu";
+				document.getElementById("error").innerHTML=error;
+				document.getElementById("result").innerHTML=""
+			}
+			else{
+				var sum=parseInt(number1)+parseInt(number2);
+				document.getElementById("result").innerHTML="tong hai so la: "+sum;
+				document.getElementById("error").innerHTML="";
+			}
+			return false;
+		}
+	</script>
+</body>
+</html>

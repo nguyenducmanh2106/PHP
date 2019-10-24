@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.container{
+			width: 40%;
+			margin:20px auto;
+			text-align: center;
+		}
+		#display{
+			font-weight: bold;
+			margin:auto;
+		}
+		input{
+			margin-top:10px;
+		}
+		button{
+			margin:10px auto;
+		}
+	</style>
+	<script>
+		function clk()
+		{
+			var a=document.getElementsByTagName("input");
+			var b=document.getElementById("display");
+				b.innerHTML="Họ tên vừa nhập: "+a[0].value+"<br/>"
+				+"Tuổi vừa nhập: "+parseInt(a[1].value)
+		}
+	</script>
+</head>
+<body>
+	<div class="container">
+		<h1 class="title">
+			Form Information
+		</h1>
+		Họ tên<input type="text" value="" name=""><br/>
+		Tuổi&nbsp;&nbsp;&nbsp;<input type="text" name="" value=""><br/>
+		<button onclick="clk()" onkeypress="clk()">Hiển thị thông tin</button><br/>
+		<p id="display"></p>
+	</div>
+</body>
+</html>

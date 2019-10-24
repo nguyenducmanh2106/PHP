@@ -1,0 +1,40 @@
+.container{
+			width: 50%;
+			margin:30px auto;
+		}
+		.row{
+			background: #000;
+			color:#fff;
+			margin:0;
+		}
+		.brand-logo{
+				margin:15px auto;
+		}
+		.menu{
+			background: #000
+		}
+		.menu ul{
+			list-style: none;
+			background:#191818;
+		}
+		.menu ul ul{
+			background: #000;
+			display: none;
+		}
+		.menu li li{
+			border-bottom: 1px solid rgba(255,255,255,.3);
+		}
+		.menu a{
+			text-decoration: none;
+			color:#fff;
+			display: block;
+			padding:12px;
+			border-left: 4px solid orange
+		}
+		.menu li{
+			border-bottom: 1px solid #000;
+			margin-left: -40px;
+		}
+		.icon-right{
+			float:right;
+		}

@@ -1,0 +1,51 @@
+*{padding:0;margin:0;}
+		body{background: #fff5d7;max-width: 100%;font-family: monospace}
+		.menu_logo{border-bottom: 3px solid #c0abab;margin-left: 3%;margin-right: 3%}
+		.menu{float:right;margin-right: 3%;}
+		.menu ul{margin-top:12px;}
+		.menu li{display: inline-block;padding-left: 20px;margin-top: 80px}
+		.menu a{text-decoration: none;color:#181818;font-size: 36px}
+		.logo{margin-left: 20px;}
+		.banner img{width: 94%;margin-left: 3%;margin-top:14px;border-radius: 6px}
+		.wp_content{border-bottom:3px solid #c0abab;width: 94%;margin-left: 3%;margin-top: 20px}
+		.sidebar{float:right;background:#706b64;width: 28%;border-radius: 18px;position:relative;}
+		.sidebar:before{
+			width: 0;height:0;
+			border-bottom:10px solid transparent;
+			border-top:10px solid transparent;
+			border-right: 16px solid #706b64;
+			position:absolute;
+			content: "";
+			top:100px;
+			right: 100%
+		}
+		.sidebar ul{margin-left: 3%}
+		.sidebar span{margin-left:12px;margin-top: 25px;color:white;}
+		.sidebar img{margin-left:20%;margin-top: 18px;width: 60%}
+		.sidebar ul li img{width: 50px;height: 50px;border-top-right-radius: 8px;border-bottom-left-radius: 8px}
+		.sidebar p{margin-top: 18px;color:white;font-size: 18px;margin-left: 4.5%}
+		.sidebar li{display: inline-block;margin-left: 2%}
+		.paragr{float:left;width: 72%}
+		.paragr p{margin-top: 20px;font-size: 15px;}
+		.title{display: flex;}
+		.title img{float: left;padding-right: 12px;height:50px;}
+		.title span{margin-top: 10px;}
+
+
+		.footer{display: flex;}
+		.my-last-tweet{float:left;width: 30%}
+		.my-last-tweet div.my-last-tweet-paragr{margin-top: 10px}
+		.my-last-tweet span{margin-left: 36px}
+		.my-last-tweet p{margin-left: 36px;line-height: 36px}
+		.my-picture{width: 35%}
+		.my-picture span{margin-left: 80px}
+		.my-picture .my-picture-images img{width: 80px;height:80px;float:left;margin-right: 6px}
+		.my-picture-images{margin: 8px 0;margin-left: 80px}
+		.my-friend{float:right;width: 35%;}
+		.my-friend span{margin-left:16px;}
+		.ul{display: flex;}
+		.ul-content{float:left;margin:20px 0;text-align: left;}
+		.ul-right{margin-left:40px;}
+		.ul-content li{list-style-type: none;color:#8b0001;}
+		.ul-content ul li:before{content:"->"}
+		span{font-size: 26px;text-transform: uppercase;}

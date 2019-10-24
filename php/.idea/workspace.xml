@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="10ed1b7a-b7bb-4bd2-aa3c-f6c31c3a9a90" name="Default Changelist" comment="">
+      <change afterPath="C:/php44_myproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuabt_day12.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-world.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-basic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testhtml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanh_php_day02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php44_NguyenDucManh_day10/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php44_NguyenDucManh_day10/bai1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php44_NguyenDucManh_day10/bai2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php44_NguyenDucManh_day10/bai3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php44_NguyenDucManh_day10/bai4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php44_NguyenDucManh_day10/bai5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php44_NguyenDucManh_day11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php44_NguyenDucManh_day11/bai10.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php44_NguyenDucManh_day11/bai11.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php44_NguyenDucManh_day11/bai2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php44_NguyenDucManh_day11/bai3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php44_NguyenDucManh_day11/bai4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php44_NguyenDucManh_day11/bai5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php44_NguyenDucManh_day11/bai6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php44_NguyenDucManh_day11/bai7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php44_NguyenDucManh_day11/bai8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../php44_NguyenDucManh_day11/bai9.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1318947480">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="4" />
+          <entry key="php" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="4" />
+          <entry key="PHP" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="21" />
+          <entry key="php" value="12980" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="21" />
+          <entry key="PHP" value="12980" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="C:/" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/testhtml.html" />
+        <option value="$PROJECT_DIR$/hello-world.php" />
+        <option value="$PROJECT_DIR$/php-basic.php" />
+        <option value="$PROJECT_DIR$/../php44_NguyenDucManh_day10/bai5.php" />
+        <option value="$PROJECT_DIR$/thuchanh_php_day02.php" />
+        <option value="$PROJECT_DIR$/chuabt_day12.php" />
+        <option value="$PROJECT_DIR$/demo_day12.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="596" />
+    <option name="width" value="780" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php44_NguyenDucManh_day12" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10ed1b7a-b7bb-4bd2-aa3c-f6c31c3a9a90" name="Default Changelist" comment="" />
+      <created>1571139476907</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571139476907</updated>
+      <workItem from="1571139482812" duration="160000" />
+      <workItem from="1571139809445" duration="9692000" />
+      <workItem from="1571220983812" duration="213000" />
+      <workItem from="1571233808802" duration="32000" />
+      <workItem from="1571247336936" duration="25000" />
+      <workItem from="1571311747026" duration="9889000" />
+      <workItem from="1571405801625" duration="70000" />
+      <workItem from="1571409194231" duration="57000" />
+      <workItem from="1571743349499" duration="65000" />
+      <workItem from="1571743428376" duration="10337000" />
+      <workItem from="1571759232007" duration="157000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="30697000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="596" y="0" width="780" height="735" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.484193" visible="true" weight="0.49166667" />
+      <window_info id="Structure" order="1" sideWeight="0.515807" side_tool="true" visible="true" weight="0.49166667" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="12" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testhtml.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-world.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-basic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="109" column="16" lean-forward="true" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../php44_NguyenDucManh_day10/bai5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thuchanh_php_day02.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="204" column="18" selection-start-line="204" selection-start-column="18" selection-end-line="204" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chuabt_day12.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_day12.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="152" column="13" selection-start-line="152" selection-start-column="13" selection-end-line="152" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
