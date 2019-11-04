@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form name='form1' onsubmit="return checklogin();">
+	username:<input type="text" name="username"/><br/>
+	<input type="submit" name=""/>
+
+</form>
+<script type="text/javascript">
+function checklogin(){
+    var username=document.form1.username.value;
+    if(username=='')
+    {
+        alert('khong duoc de trong du lieu');
+    }
+    else
+    {
+        var str1='1234567890';
+        str2='QWERTYUIOPASDFGHJKLZXCVBNM';
+        for(var i=0; i<username.length-3; i++)
+        {
+            if('@'.indexOf(username.charAt(i))!=-1)
+            {
+                if((str1+str2+str2.toLowerCase()).indexOf(username.charAt(i+1))==-1)
+                {
+                    alert('error');
+                    return false;
+                }
+                else
+                {
+                    for(var j=i+2; j<username.length-1; j++)
+                    {
+                        if('.'.indexOf(username.charAt(j))!=-1)
+                        {
+                            if((str1+str2+str2.toLowerCase()).indexOf(username.charAt(j+1))==-1)
+                            {
+                                alert('error');
+                                return false;
+                            }
+                            else
+                            {
+                                alert('dang nhap thanh cong');
+                                return false;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        alert('error');
+    }
+    return false;
+}
+</script>
+</body>
+</html>
