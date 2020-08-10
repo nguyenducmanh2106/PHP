@@ -1,0 +1,17 @@
+{
+  {
+"id":1,
+"title":"văn học",
+"price":20000
+  },
+ {
+"id":2,
+"title":"toán",
+"price":22000
+  },
+ {
+"id":3,
+"title":"tin học",
+"price":40000
+  }
+}
