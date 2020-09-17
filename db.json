@@ -1,4 +1,6 @@
-[{
+{
+"list":[
+  {
   "id": "95aa1750-16b2-4f62-91ab-4aba03850e71",
   "name": "Jam - Strawberry, 20 Ml Jar",
   "description": "parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis",
@@ -58,5 +60,6 @@
   "name": "Alize Red Passion",
   "description": "rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis",
   "imageURL": "http://dummyimage.com/300x200.jpg/5fa2dd/ffffff"
-}]
-
+}
+]
+}
